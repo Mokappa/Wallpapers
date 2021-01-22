@@ -307,7 +307,7 @@ nav{
 	letter-spacing: 2px;
 	display: block;
 	text-align: center;
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.6);
 	margin-bottom: 40px;
 }
 
@@ -389,6 +389,11 @@ nav{
 	animation-delay: 2s;
 	animation-fill-mode: forwards;
 	opacity: 0;
+}
+
+.sectiune_text_Leaf_span{
+	color: rgba(255, 255, 255, 0.7); 
+	font-size: 20px;
 }
 
 
@@ -479,6 +484,7 @@ nav{
 	font-size: 25px;
 	letter-spacing: 2px;
 	margin: 0 50px 0 50px;
+	text-align: center;
 }
 
 
@@ -681,6 +687,9 @@ nav{
 		opacity: 0;
 	 	visibility: hidden;
 		transition: visibility 0.5s, opacity 0.5s;
+		justify-content: center; 
+		text-align: center;
+		align-items: center;
 	}
 
 	.popup_active{
@@ -920,6 +929,10 @@ nav{
 	.sectiune_text_Leaf{
 		font-size: 20px;
 		margin-bottom: 150px;
+	}
+
+	.sectiune_text_Leaf_span{
+		font-size: 15px;
 	}
 
 
