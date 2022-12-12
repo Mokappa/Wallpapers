@@ -39,7 +39,7 @@ nav{
 .nav_links{
 	display: flex;
 	justify-content: space-around;
-	width: 30%;
+	width: 20%;
 }
 
 .nav_links li{
@@ -264,140 +264,6 @@ nav{
 }
 
 
-
-/* THIS IS ABOUT*/
-.header_about{
-	font-size: 150px;
-	letter-spacing: 2px;
-	text-align: center;
-	display: block;
-	margin: 200px 0 0 0;
-	padding: 0;
-	color: rgba(255, 255, 255, 0.4);
-	animation: transitionIn 0.7s linear;
-	animation-fill-mode: forwards;
-	opacity: 0;
-}
-
-.text_about{
-	font-size: 40px;
-	letter-spacing: 2px;
-	display: block;
-	text-align: center;
-	margin-top: 25px;
-	margin-left: 10%;
-	margin-right: 10%;
-	color: rgba(255, 255, 255, 0.4);
-	animation: transitionIn 0.7s linear;
-	animation-delay: 1s;
-	animation-fill-mode: forwards;
-	opacity: 0;
-}
-
-.about_sectiune_imagini{
-	margin: 150px 50px 0 50px;
-	animation: transitionIn 0.7s linear;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
-	opacity: 0;
-}
-
-.header_sectiune_imagini{
-	font-size: 70px;
-	letter-spacing: 2px;
-	display: block;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.6);
-	margin-bottom: 40px;
-}
-
-/*ABOUT FIRST SITE*/
-.Merc_Images{
-	width: 100%;
-	display: block;
-	margin: 0 auto 0 auto;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.Merc_Images2{
-	width: 100%;
-	display: block;
-	margin: 5px auto 0 auto;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.Merc_Images3{
-	width: 100%;
-	display: block;
-	margin: 5px auto 0 auto;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.sectiune_text_Merc{
-	font-size: 40px;
-	text-align: center;
-	letter-spacing: 2px;
-	color: rgba(255, 255, 255, 0.4);
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 150px;
-	margin-top: 50px;
-	animation: transitionIn 0.7s linear;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
-	opacity: 0;
-}
-
-/*ABOUT LEAF*/
-.sectiune_imaginiLeaf{
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 30px;
-}
-
-.LeafPereche{
-	width: 50%;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.laptopLaptop{
-	margin-right: 10px;
-	margin-bottom: 0;
-}
-
-.timeSquare{
-	margin-left: 10px;
-}
-
-.laptop_models{
-	width: 100%;
-	display: block;
-	margin: 5px auto 0 auto;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.sectiune_text_Leaf{
-	font-size: 40px;
-	text-align: center;
-	letter-spacing: 2px;
-	color: rgba(255, 255, 255, 0.4);
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 250px;
-	margin-top: 50px;
-	animation: transitionIn 0.7s linear;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
-	opacity: 0;
-}
-
-.sectiune_text_Leaf_span{
-	color: rgba(255, 255, 255, 0.7); 
-	font-size: 20px;
-}
-
-
-
 /*FOOTER*/
 .footer{
 	width: 100%;
@@ -616,67 +482,6 @@ nav{
 	}
 
 
-
-	/* THIS IS ABOUT*/
-	.header_about{
-		font-size: 80px;
-		margin: 100px 0 0 0;
-	}
-
-	.text_about{
-		font-size: 20px;
-		margin-top: 25px;
-	}
-
-	.about_sectiune_imagini{
-		margin: 150px 50px 0 50px;
-	}
-
-	.header_sectiune_imagini{
-		font-size: 50px;
-		margin-bottom: 40px;
-	}
-
-	/*ABOUT FIRST SITE*/
-	.sectiune_text_Merc{
-		font-size: 20px;
-	}
-
-	/*ABOUT LEAF*/
-	.sectiune_imaginiLeaf{
-		display: block;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 30px;
-	}
-
-	.LeafPereche{
-		width: 100%;
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-	}
-
-	.laptopLaptop{
-		margin-right: 0;
-		margin-bottom: 30px;
-	}
-
-	.timeSquare{
-		margin-left: 0;
-	}
-
-	.laptop_models{
-		width: 100%;
-		display: block;
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-	}
-
-	.sectiune_text_Leaf{
-		font-size: 20px;
-		margin-bottom: 150px;
-	}
-
-
-
 	/*FOOTER*/
 	.footer_text{
 		font-size: 10px;
@@ -870,71 +675,6 @@ nav{
 		margin-bottom: 200px;*/
 		display: none;
 	}
-
-
-
-	/* THIS IS ABOUT*/
-	.header_about{
-		font-size: 80px;
-		margin: 100px 0 0 0;
-	}
-
-	.text_about{
-		font-size: 20px;
-		margin-top: 25px;
-	}
-
-	.about_sectiune_imagini{
-		margin: 150px 50px 0 50px;
-	}
-
-	.header_sectiune_imagini{
-		font-size: 50px;
-		margin-bottom: 40px;
-	}
-
-	/*ABOUT FIRST SITE*/
-	.sectiune_text_Merc{
-		font-size: 20px;
-	}
-
-	/*ABOUT LEAF*/
-	.sectiune_imaginiLeaf{
-		display: block;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 30px;
-	}
-
-	.LeafPereche{
-		width: 100%;
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-	}
-
-	.laptopLaptop{
-		margin-right: 0;
-		margin-bottom: 30px;
-	}
-
-	.timeSquare{
-		margin-left: 0;
-	}
-
-	.laptop_models{
-		width: 100%;
-		display: block;
-		box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-	}
-
-	.sectiune_text_Leaf{
-		font-size: 20px;
-		margin-bottom: 150px;
-	}
-
-	.sectiune_text_Leaf_span{
-		font-size: 15px;
-	}
-
 
 
 	/*FOOTER*/
