@@ -1,1 +1,1 @@
-https://mokappa.github.io/wallpapers/
+https://mokappa.github.io/Wallpapers/
